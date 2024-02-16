@@ -3,7 +3,7 @@
 This website was created to provide the user with a responsive personal portfolio using CSS, media queries and flexbox. 
 
 ## Installation
-N/A
+Click [here](https://pamam31.github.io/patricia-portflio/) to open my portfolio.
 
 ## Usage
 ![alt text](<Images/flexbox portfolio.png>)
