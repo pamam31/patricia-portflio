@@ -37,7 +37,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    height: 70vh
+    height: 70vh;
     
 }
 
@@ -54,7 +54,7 @@ header {
 #avatar {
     max-width: 300px;
     max-height: 300px;
-    margin-left: 30px
+    margin-left: 30px;
 }
 
 
@@ -92,7 +92,7 @@ header {
 .headings {
     margin-right: 10px;
     margin-left:50px;
-    padding: 5px
+    padding: 5px;
 }
 .work-section {
 
@@ -143,7 +143,7 @@ header {
 .project-item {
     flex: 1;
     text-align: center;
-    margin-right: 0px 10px 
+    margin-right: 0px 10px;
     /* Additional styling as needed */
 }
 
@@ -154,19 +154,38 @@ header {
     /* Additional styling as needed */
 }
 
-.project-item h4{
+.project-item {
    margin: 18px;
 }
 
 
-  body {
+
+
+
+.page-section-contact {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+  /* body {
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
     height: 70vh;
     width: 100vw;
-  }
+  } */
   
   h1,
   h2,
@@ -240,6 +259,21 @@ header {
       .project-item h4 {
         margin: 10px;
       }
+
+      .page-section-contact {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page-section-contact h5{
+        margin: 10px;
+    }
+
+
+
+   
 
 
 
