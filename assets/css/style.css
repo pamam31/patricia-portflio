@@ -172,8 +172,12 @@ header {
     width: 70vw;
 }
 
-a{
+a {
     text-decoration: none;
+}
+
+img:hover {
+    opacity: 0.5;
 }
 
 
