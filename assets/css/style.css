@@ -176,7 +176,7 @@ a {
     text-decoration: none;
 }
 
-img:hover {
+a:hover {
     opacity: 0.5;
 }
 
