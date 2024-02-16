@@ -28,14 +28,22 @@ header {
     margin: 15px;
 }
 
+
+/* hero section */
 .hero-banner {
-    background-color: rgb(166, 211, 166);
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    /* margin-left: 90px; */
+    height: 70vh
+    
+}
+
+.green {
+    background-color: white;
+    height: 92vh;
 }
 
 .hero-text {
@@ -44,60 +52,111 @@ header {
 }
 
 #avatar {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 300px;
+    max-height: 300px;
     margin-left: 30px
 }
 
+
+/* about section */
 #about {
+    height: 100vh;
+    padding: 100px;
     display: flex;
-    margin-top: 10px;
+    
     align-items: center;
+    background-color: rgb(33, 33, 33);
+   
+}
+
+#about-h {
+    color: white;
 }
 
 #desc {
+    color: white;
     margin-left: 80px;
     max-width: 200px;
     max-height: 200px;
-    background-color: peru;
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    max-width: 500px;
+    max-height: 500px;
+    padding-left: 90px;
 }
 
+
+/* project section */
 .headings {
     margin-right: 10px;
     margin-left:50px;
     padding: 5px
 }
+.work-section {
 
+    height: 230vh;
+    padding: 100px;
+}
+
+#project-head {
+    text-decoration: none;
+    font-style: italics;
+}
 #project-section {
-    background-color: rgb(160, 160, 211);
+    /* background-color: rgb(160, 160, 211); */
     max-width:500px;
     max-height: 300px;
     margin-left: 50px;
 }
 
 
-#project-section {
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
+
+.biggest img {
+    max-width: 120vh;
+    border-radius: 3px;
+    /* max-height: 200px; */
 }
 
-.row2-row3 {
+
+.project-item img {
+    max-width: 60vh;
+    border-radius: 3px;
+    
+}
+
+.gallery-section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+
+    /* Additional styling as needed */
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: space-between;
+
+    /* Additional styling as needed */
 }
 
 .project-item {
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between;
+    flex: 1;
+    text-align: center;
+    margin-right: 0px 10px 
+    /* Additional styling as needed */
 }
 
+.project-item img {
+    max-width: 60-vh;
+    height: auto;
+    margin-right: 20px;
+    /* Additional styling as needed */
+}
 
-
+.project-item h4{
+   margin: 18px;
+}
 
 
   body {
@@ -105,6 +164,8 @@ header {
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
+    height: 70vh;
+    width: 100vw;
   }
   
   h1,
@@ -121,3 +182,69 @@ header {
     margin: 0;
   }
   
+  @media only screen and (max-width: 768px) {
+    header {
+      padding: 10px 20px;
+    }
+
+
+    .nav-bar a {
+        /* display: none; Hide the navigation bar initially on smaller screens */
+        display: flex;
+        flex-direction: column;
+        /* position: absolute; */
+        top: 60px;
+        left: 0;
+        background-color: black;
+        width: 100%;
+        text-align: right;
+        padding-right: 40px;
+    }
+
+    #about {
+        height: auto;
+        padding: 20px;
+        align-items: center;
+    }
+
+      #desc, #about-h {
+        margin: 5px;
+        font-size: smaller;
+    }
+
+    .icon {
+        max-width: 40%;
+        height: auto;
+        padding-left: 0;
+    }
+
+    .work-section {
+        height: auto;
+        padding: 20px;
+      }
+    
+      .biggest img,
+      .project-item img {
+        max-width: 100%;
+        margin-right: 0;
+      }
+    
+      .project-item {
+        margin-right: 0;
+      }
+    
+      .gallery-row {
+        flex-direction: column;
+      }
+    
+      .project-item h4 {
+        margin: 10px;
+      }
+
+
+
+    
+    
+
+
+}
