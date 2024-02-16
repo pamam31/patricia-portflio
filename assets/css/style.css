@@ -284,11 +284,28 @@ a:hover {
 
 
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .biggest img,
     .project-item img {
-      max-width: 100%;
+      max-width: 110%;
       margin-right: 0;
+    }
+
+    #about {
+        height: auto;
+        padding: 20px;
+        align-items: center;
+    }
+
+      #desc, #about-h {
+        margin: 5px;
+        font-size: smaller;
+    }
+
+    .icon {
+        max-width: 40%;
+        height: auto;
+        padding-left: 0;
     }
     
 }
